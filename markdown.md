@@ -8,6 +8,7 @@ webservice服务器        192.201.201.203       DataPlatformDALHessian  + DataP
 
 数据驱动服务器            192.201.201.210       DataPlatformDriveService  
 
+list
 
 
 
