@@ -57,9 +57,10 @@
 
 
 # 附录
-| 角色名称  | IP地址  | 部署模块  |日志文件配置|
+| 角色名称  | IP地址  | 部署模块  |日志文件配置|状态|
 |:----------|:-------|:---------|:----------|
-|webservice服务|192.201.201.203|DataPlatformDALHessian  + DataPlatformWebService|1|
-|文件存储服务|192.201.201.206|fastdfs  + nginx webserver|2|
-|mysql存储服务|192.201.201.207|mysql db server|3|
-|数据驱动服务|192.201.201.210|DataPlatformDriveService|4|
+|webservice服务|192.201.201.203|DataPlatformDALHessian  + DataPlatformWebService|1|等待确认|
+|webservice服务|192.201.201.203|DataPlatformDALHessian  + DataPlatformWebService|1|等待确认|
+|文件存储服务|192.201.201.206|fastdfs  + nginx webserver|2|完全健康|
+|mysql存储服务|192.201.201.207|mysql db server|3|完全健康|
+|数据驱动服务|192.201.201.210|DataPlatformDriveService|4|完全健康|
