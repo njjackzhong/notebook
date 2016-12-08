@@ -46,15 +46,15 @@ _________
 
 Q1:  如果提示
 
->$ git commit
->
-  Please tell me who you are.
->
-Run
->
-  git config --global user.email "you@example.com"
->
-  git config --global user.name "Your Name"
+>$ git commit  
+
+>  Please tell me who you are.  
+
+>Run
+
+>  git config --global user.email "you@example.com"
+
+>  git config --global user.name "Your Name"
 
 表示没有用户或者邮件信息，请配置即可，完成后效果如下
 
