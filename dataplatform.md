@@ -2,7 +2,7 @@
 
 ---
 
-#### 问题一：ActionPlatformClient.exe文件管理无法导出fastdfs文件，提示“导出文件失败！”或者导出文件的大小是0字节？
+#### Q1: ActionPlatformClient.exe文件管理无法导出fastdfs文件，提示“导出文件失败！”或者导出文件的大小是0字节？
 
 方法1：查看日志
 > 1. 查看 **ActionPlatformClient** Logs/log.txt 日志文件，初步定位问题
@@ -15,7 +15,7 @@
 > 2. 打开浏览器，地址栏输入http://192.201.201.206/fileUrl/ 如果可以下载并预览文件，则文件已经upload至fastdfs，同时fastdfs正确提供了web访问服务
 
 
-#### 问题二：appache tomcate 管理
+#### Q2: appache tomcate 管理
 
 ##### (1)如何使用命令行关闭tomcat7服务?
 
@@ -44,14 +44,15 @@
 
 
 
-#### 问题二：fastdfs如何命令行管理？如何查询当前文件数目与存储文件等信息?
+#### Q3: fastdfs如何命令行管理？如何查询当前文件数目与存储文件等信息?
 
 
 
 ----
 ## 计划
 
-> 任务一   2016-12-3 厦门   DataPlatformDriveService 备份至本地，同时上传svn
+> 任务一   2016-12-3 厦门   DataPlatformDriveService 备份至本地SVN  
+> 任务二   2016-12-3 厦门   DataProxy 备份至本地SVN
 
 
 

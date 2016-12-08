@@ -56,7 +56,7 @@ Q1:  如果提示
 
 >  git config --global user.name "Your Name"
 
-表示没有用户或者邮件信息，请配置即可，完成后效果如下
+表示没有用户或者邮件信息，请按照提示配置user.name和user.email即可，完成后效果如下
 
 ```
 $ git config --list --global | grep user
