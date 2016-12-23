@@ -23,6 +23,11 @@ Q1: ** nodejs **  web  server |IP等于192.201.203.21 |  服务方式运行
 #sh hook_publish.sh       
 ```
 
+K2: ** 823admin.tbl_system_config ** 配置信息存储
+
+包括HDFS 结构化、非结构化文件路径  GIS地图服务器地址、综合应用服务器地址、消息转发等;
+其他模块，例如CloudPersonCore人立方等
+
 ### Cloulera  CDH
 
 Q1: ** impala ** SQL 语句
